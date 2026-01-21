@@ -11,17 +11,6 @@ My work focused on:
 - Synthetic data generation using REaLTabFormer
 - Evaluating privacy and fidelity tradeoffs
 
-## Files
-
-- preprocessing_pipeline.ipynb
-  Implements data pruning, feature engineering, and memory reduction for large tabular datasets.
-
-- realtabformer_generation.ipynb
-  Trains REaLTabFormer models on task-specific subsets. Includes custom fixes to the REaLTabFormer package and GPU-aware training adjustments.
-
-- privacy_evaluation.ipynb
-  Evaluates synthetic data using distributional comparisons and downstream utility metrics.
-
 ## Key Technical Challenges
 
 - First-time implementation of synthetic data generation
